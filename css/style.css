@@ -1,0 +1,420 @@
+
+.htmlBodyIndex {
+  background-color: #f7797d;
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: grid
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: #fff;
+}
+.encabezado h1 {
+  color: #c2bf96;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+.caja {
+  margin: 20px;
+    padding: 20px;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px;
+    text-align: center;
+   
+}
+
+.caja p{
+  margin-top: 10px;
+  color: #375470;
+}
+
+.caja h2 {
+  color: #d2cdb3;
+  font-size: 2.5rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.displayLine {
+  position: relative;
+  display: inline-block;
+  top: 5px;
+  right: 40px;
+}
+footer {
+height: 100px;
+    width: 100%;
+    background-color: #fff;
+    border-top: #444444 2px solid;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-wrap: wrap;
+    grid-area: footer;
+}
+
+body {
+  grid-area: body;
+  display: grid;
+  grid-template-areas: 
+  "header header header header"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+}
+
+.flexPadreFooter {
+  display: flex;
+
+}
+.flexPadreFooter h5 {
+  justify-content: flex-end;
+align-items: flex-end;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  position: relative;
+  top: 400px;
+  height: 125px;
+  width: 105%;
+}
+
+
+h4 {
+  color: crimson;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h5 {
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.divNav-responsive {
+  display: none;
+}
+
+.divNav {
+  background-color: #c6ffdd;
+}
+
+.nav__li {
+  display: inline-block;
+  padding: 10px;
+  color: darkmagenta;
+}
+
+.nav__li a {
+  color: darkmagenta;
+  text-decoration: none;
+}
+
+.nav__li i {
+  text-align: right;
+  width: 30px;
+  margin-right: 3px;
+}
+@media (max-width:900px) {
+  .encabezado ul li {
+      display: inline-block;
+      width: 70px;
+      height: 30px;
+
+  }
+  .contacto form {
+    width: 90vw;
+  }
+  .campo {
+    width: 90%;
+  }
+
+ .caja videoDieta {
+  width: 10%;
+  height: 10%;
+ }
+
+ .imagenDieta {
+  display: none;
+ }
+
+
+
+
+}
+/***************************************************************************************    CONTACTO   *******************************************************************************/
+
+
+/* .contacto {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #444444;
+  display: inline-block;
+} */
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50vw;
+}
+
+
+
+.campo {
+  display: inline-block;
+}
+
+.boton {
+  color: black;
+  background-color: #d3e4cd;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+.h3Contacto {
+  color: orangered;
+}
+
+.labelContacto {
+  color: black;
+}
+
+.h2Contacto {
+  position: static;
+}
+@media (min-width:900px) {
+  .campo {
+    width: 350px;
+  }
+  .boton {
+    width: 200px;
+    
+  }
+}
+.caja form {
+  width: 95%;
+
+}
+
+
+/***************************************************************************************    MUSCULACION   *******************************************************************************/
+
+.htmlBodyMusculacion {
+  background-color: rgb(105, 105, 50);
+}
+
+.h1Musculacion {
+  position: relative;
+  color: red;
+  left: 965px;
+  top: 0px;
+}
+.img1 {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  left: 50px;
+}
+
+.img2 {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  left: 300px;
+}
+
+.img3 {
+  position: relative;
+  width: 9%;
+  height: 10%;
+  left: 500px;
+  top: 20px;
+}
+
+.imagenes {
+  position: relative;
+}
+.h2Mancuerna {
+  position: relative;
+  top: 380px;
+  left: 20px;
+  font-size: 15px;
+}
+
+.h2Barra {
+  position: relative;
+  font-size: 15px;
+  top: 345px;
+  left: 500px;
+}
+
+.h2Smith {
+  position: relative;
+  top: 315px;
+  left: 935px;
+  font-size: 15px;
+}
+
+.h4Mancuerna {
+  position: relative;
+  top: 10px;
+  left: 100px;
+}
+
+.h4Barra {
+  position: relative;
+  left: 550px;
+  bottom: 30px;
+}
+
+.h4Smith {
+  position: relative;
+  left: 940px;
+  bottom: 65px;
+}
+
+/***************************************************************************************    RUTINAS   *******************************************************************************/
+.htmlBodyRutinas {
+  background-color: rgb(105, 105, 50);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.img1Rutinas {
+  position: relative;
+  width: 10%;
+  height: 10%;
+  left: 950px;
+}
+.h2Rutinas {
+  position: relative;
+  left: 1000px;
+}
+.videoRutinas {
+  position: relative;
+  border: 5px solid black;
+  left: 750px;
+}
+
+.h4Rutinas {
+  color: black;
+}
+
+.h4RutinasDos {
+  color: black;
+  font-size: 30px;
+  position: relative;
+  left: 900px;
+}
+
+.h5GlobalRutinas h5 {
+  color: black;
+  font-size: 10px;
+}
+
+.h5RutinasUno {
+  position: relative;
+  bottom: 300px;
+}
+.h5RutinasDos {
+  position: relative;
+  bottom: 20px;
+  font-size: 5px;
+}
+.h5RutinasTres {
+  position: relative;
+  left: 1350px;
+  bottom: 350px;
+}
+.h5RutinasCuatro {
+  position: relative;
+  left: 1350px;
+  bottom: 80px;
+}
+.h1Rutinas {
+  position: relative;
+  color: red;
+  left: 965px;
+  top: 0px;
+}
+
+/***************************************************************************************    DIETAS   *******************************************************************************/
+.htmlBodyDietas {
+  background-color: rgb(105, 105, 50);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.h1Dieta {
+  position: relative;
+  color: red;
+  left: 965px;
+  top: 0px;
+}
+
+.imagenDieta {
+  display: flex;
+  width: 15%;
+  height: 15%;
+  left: 950px;
+}
+
+.h2Dieta {
+  position: relative;
+  left: 1000px;
+}
+.videoDieta {
+display: flex;
+
+}
+
+.olDieta {
+  color: black;
+  font-size: 20px;
+  position: relative;
+  top: 200px;
+  left: 1300px;
+}
+
+.h4Dieta {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  left: 500px;
+
+}
