@@ -243,7 +243,7 @@ h5 {
   color: red;
   left: 965px;
   top: 0px;
-}
+/* }
 .img1 {
   position: relative;
   width: 10%;
@@ -264,11 +264,12 @@ h5 {
   height: 10%;
   left: 500px;
   top: 20px;
-}
+} */
 
 .imagenes {
   position: relative;
 }
+
 .h2Mancuerna {
   position: relative;
   top: 380px;
@@ -306,6 +307,10 @@ h5 {
   position: relative;
   left: 940px;
   bottom: 65px;
+}
+.imgCarousel {
+  height: 350px;
+  object-fit: cover;
 }
 
 /***************************************************************************************    RUTINAS   *******************************************************************************/
