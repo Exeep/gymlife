@@ -313,6 +313,16 @@ h5 {
   object-fit: cover;
 }
 
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+.gridHola {
+  grid-template-columns: auto;
+}
+
+
 /***************************************************************************************    RUTINAS   *******************************************************************************/
 .htmlBodyRutinas {
   background-color: rgb(105, 105, 50);
